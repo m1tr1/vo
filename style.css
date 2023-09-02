@@ -129,10 +129,12 @@ header li a {
 
 
 .images {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 2rem 1.5rem;
     margin-top: 20px;
+    padding: 20px;
 }
 
 .join {
@@ -184,4 +186,27 @@ footer {
     padding: 0 5px;
 }
 
+@media  (max-width: 600px) {
+    .text-cont{
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+    }
+    .text-cont h1{
+        font-weight: 500;
+    }
+    .func {
+        display: none;
+    }
 
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .left-footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
