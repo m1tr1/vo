@@ -16,3 +16,17 @@ function removeActiveNav() {
     console.log(21)
 }
 
+// blurs.forEach((blur) => {
+//     blur.addEventListener('mouseover', () => {
+//         tops.forEach((top) => {
+//             top.classList.add('active')
+//         })
+//         console.log(2)
+//     })
+// })
+
+// tops.forEach((top) => {
+//     top.addEventListener('mouseover' , () => {
+//         top.classList.add('active')
+//     })
+// })
