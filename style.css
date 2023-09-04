@@ -204,6 +204,137 @@ footer {
     padding: 0 5px;
 }
 
+
+
+.greetings {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7rem;
+}
+
+
+
+.mypic {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.mypic img{
+    border-radius: 15px;
+    width: 640px;
+    height: 480px;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+.aboutme p {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.abt {
+    background-color: #e8e5e480;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.experience p {
+    font-weight: 500;
+    font-size: 1.7rem;
+    margin: 10px;
+}
+.exp {
+    background-color: #e8e5e480;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: smaller;
+}
+.worked-with {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.worked-with p {
+    font-weight: 500;
+    font-size: 1.7rem;
+    margin: 10px;
+}
+.client {
+    background-color: #e8e5e480;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: smaller;
+}
+
+.work-exp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.work {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    margin: 2rem;
+}
+
+.work p {
+    color: #7f7f7f;
+    font-size: smaller;   
+    margin: 8px;
+    font-weight: normal;
+}
+
+.role {
+    background-color: #e8e5e480;
+    border-radius: 15px;
+    padding: 3px 10px;
+    font-size: smaller;
+    font-weight: normal;
+}
+
+.brands {
+    padding: 50px 1px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand {
+    padding: 50px;
+    margin: 50px;
+}
+
+.brand img {
+    width: 114px;
+    height: 85px;
+}
+
+
 @media  (max-width: 600px) {
     .text-cont{
         width: 100%;
